@@ -3,6 +3,11 @@ module Main where
   ----------------------
   -- Exploratory work --
   ----------------------
+  {- TODO: 1. Add a new pixel to existing network. (Leads onto next point.)
+     TODO: 2. Add create network function
+     TODO: 3. Optimise trav function - calculate complexity..
+  -}
+
   type Value = Int
   type Loc = [Int]
                                   -- L     R     U     D
