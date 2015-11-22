@@ -154,7 +154,13 @@ module Main where
       mapNetworkIntoArray :: Pixel -> [Loc] -> ([String], [Loc])
       mapNetworkIntoArray (Live v loc l r a b) ls = undefined
 -}
-
+{-
+  mapNetwork :: [Value] -> [[String]]
+  mapNetwork v'
+    = mapN v'
+    where
+     mapN :: [Value] ->
+-}
 
   traversePixels :: Pixel -> [Loc] -> ([Value], [Loc])
   traversePixels Dead ls = ([], ls)
